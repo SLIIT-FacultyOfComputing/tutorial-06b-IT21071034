@@ -4,9 +4,10 @@
 
 using namespace std;
 
+
 // Assign studentId and name
-Student::assignDetails(int SID,char Sname[]) {
-  studentId=SID;
+Student::assignDetails(int S_id,char Sname[]) {
+  studentId = S_id;
   strcpy(name,Sname);
 }
 

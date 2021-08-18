@@ -12,7 +12,7 @@ class Student {
 
   public:
      
-     void assignDetails(int SID,char Sname[]);
+     void assignDetails(int S_id,char Sname[]);
     
      void display();
      
